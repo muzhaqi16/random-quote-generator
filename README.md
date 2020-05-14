@@ -30,11 +30,9 @@
 - Clone this repo to your local machine using 
 
 ```
-
 git clone https://github.com/muzhaqi16/random-quote-generator.git
 
 cd random-quote-generator
-
 ```
 
 ### Install
@@ -62,7 +60,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - JavaScript
 - React.js
 - Bootstrap
-- react-bootstrap
+- [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 
 ---
 
