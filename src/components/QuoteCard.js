@@ -1,24 +1,25 @@
 import React from 'react'
-import { Card } from 'react-bootstrap';
-function QuoteCard() {
+import { Card, Button } from 'react-bootstrap';
+function QuoteCard(props) {
+    const { author, en } = props.quote;
     return (
-        <div>
-            <Card>
-                <Card.Header>Quote</Card.Header>
+        <>
+            <Card className="text-center">
+                <Card.Header>Random Programming Quote Generator</Card.Header>
                 <Card.Body>
                     <blockquote className="blockquote mb-0">
-                        <p>
-                            {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
+                        <p id="text">
+                            {en}
                         </p>
-                        <footer className="blockquote-footer">
-                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        <footer className="blockquote-footer" id="author">
+                            <cite title="Author"> {author}</cite>
                         </footer>
                     </blockquote>
+                    <a target="_blank" rel="noopener noreferrer" href={`https://twitter.com/intent/tweet?hashtags=quotes&text=${encodeURIComponent(en + " ~ " + author)}`} id="tweet-quote">Tweet</a>
                 </Card.Body>
+                <Card.Footer className="text-muted"><Button id="new-quote" variant="primary" onClick={props.handleClick}>Get a new quote</Button></Card.Footer>
             </Card>
-        </div>
+        </>
     )
 }
 

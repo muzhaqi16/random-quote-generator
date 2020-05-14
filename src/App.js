@@ -3,7 +3,7 @@ import RandomQuote from './components/RandomQuote';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <RandomQuote />
     </div>
   );
