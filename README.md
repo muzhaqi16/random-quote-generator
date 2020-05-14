@@ -1,6 +1,4 @@
-[Random Quote Generator]https://random-quote-generator.artanmuzhaqi.now.sh/)
-
-# eCalendar 
+# Random Quote Generator
 
 > Simple random programming quote generator. Check it out here [Live Demo](https://random-quote-generator.artanmuzhaqi.now.sh/)
 
@@ -29,8 +27,15 @@
 
 ### Clone
 
-- Clone this repo to your local machine using ```git clone https://github.com/muzhaqi16/random-quote-generator.git```
-- ```cd``` into ```random-quote-generator```
+- Clone this repo to your local machine using 
+
+```
+
+git clone https://github.com/muzhaqi16/random-quote-generator.git
+
+cd random-quote-generator
+
+```
 
 ### Install
 
@@ -64,12 +69,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Contributing
 
 > I would love your contributions at making this repo better and adding new features. 
-> To get started at contributing at this repo follow the steps below...
+> To get started at contributing at this repo follow the steps below.
 
 ### Step 1
 
-- **Option 1**
-    - 🍴 Fork this repo!
+- 🍴 Fork this repo!
 
 ### Step 2
 
@@ -83,7 +87,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Team
 
-<a href="https://muzhaqi.com" target="_blank">**Artan Muzhaqi**</a>
+   - <a href="https://muzhaqi.com" target="_blank">**Artan Muzhaqi**</a>
 
 ---
 
